@@ -1,0 +1,33 @@
+<div class="container-fluid" style="margin:20px 40px;">
+
+            <div class="col-sm-6" style="border-right: 1px solid lightblue">
+                <h4 style="font-weight: bold; "> ACCOUNT </h4>
+                <h5 style="font-weight: bold;"> SIGN IN WITH YOUR ACCOUNT </h5>
+                <br/>
+                <form style = "width:80%;">
+                    <div class="form-group">
+                        <input type="email" class="form-control" id="email" placeholder="Email Address" ng-model="email" required>
+                    </div>
+                    <div class="form-group">
+                        <input type="password" class="form-control" id="pwd" placeholder="Password" ng-model="password" required>
+                    </div>
+                    <span style="color:red;">{{error}}</span>
+                    <div class="form-group">
+                        <label><input type="checkbox" id="logging"> Keep me signed in</label>
+                    </div>
+                    <a > <button type="submit" class="btn btn-default" id="sign" ng-click="signIn()"> <span style="padding-right: 5px;">SIGN IN </span> </button></a>
+                    <div style = "float:right; margin-right:30px;">
+                    <span style=" padding-right: 5px; "><a href="#" > Forgot Password</a></span>
+                    </div>
+                </form>
+            </div>
+            <div class="col-sm-6" >
+                <h4 style="font-weight: bold; "> REGISTER</h4>
+                <h5 style="font-weight: bold;"> NOT A MEMBER YET? </h5>
+                <button type="submit" class="btn btn-success" id="registerr"><a href="#!register"> <span style="padding-right: 5px; color:white">Register </span> </a> </button>
+                <br/>
+
+            </div>
+            <br/>
+
+      </div>

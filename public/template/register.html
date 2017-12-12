@@ -1,0 +1,36 @@
+<div class="container-fluid" style="margin:20px 40px;" ng-controller="regCtrl">
+    <h4 style="font-weight: bold; text-align:center;"> REGISTER HERE</h4>
+    <br/>
+    <div class="col-sm-6" >
+      <form style = "width:80%;">
+        <div class="form-group">
+          First Name:<input type="text" class="form-control" id="fname" placeholder="First Name" ng-model="newmbr.fname">
+        </div>
+        <div class="form-group">
+          Email ID: <input type="email" class="form-control" id="email" placeholder="Email Address" ng-model="newmbr.email">
+        </div>
+        <div class="form-group">
+          Password: <input type="password" class="form-control" id="pwd" placeholder="Password" ng-model="newmbr.pwd">
+        </div>
+      </form>
+    </div>
+    <div class="col-sm-6" >
+      <form style = "width:80%;">
+        <div class="form-group">
+         Last Name: <input type="lname" class="form-control" id="lname" placeholder="Last Name" ng-model="newmbr.lname">
+        </div>
+        <div class="form-group">
+         Phone: <input type="number" class="form-control" id="phone" placeholder="Phone" ng-mode="newmbr.phone">
+        </div>
+        <div class="form-group">
+        Retype Password:  <input type="password" class="form-control" id="rpwd" placeholder="Retype Password" ng-model="newmbr.rpwd">
+        <span style="color:red" ng-show="error">{{error}}</span>
+        </div>
+      </form>
+    </div>
+    <br/>
+    <br/>
+    <div>
+        <button style = " text-align:center; margin:auto; display:block; color:white;font-weight: bold; width:170px;" type="submit" class="btn btn-success" ng-click="register(newmbr)" id="account">REGISTER </button>
+    </div>
+  </div>

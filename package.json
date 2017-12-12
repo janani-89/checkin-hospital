@@ -1,0 +1,24 @@
+{
+  "name": "hospital_angular",
+  "version": "1.0.0",
+  "description": "basic hospital app involving all details about a hospital",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "janani ravi",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.18.2",
+    "bower": "^1.8.2",
+    "express": "^4.16.2",
+    "express-handlebars": "^3.0.0",
+    "jasmine": "^2.8.0",
+    "karma": "^1.7.1",
+    "mongoose": "^4.12.4"
+  },
+  "devDependencies": {
+    "karma-jasmine": "^1.1.0",
+    "karma-phantomjs-launcher": "^1.0.4"
+  }
+}

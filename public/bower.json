@@ -1,0 +1,22 @@
+{
+  "name": "public",
+  "authors": [
+    "Janani Vaishnavi <janani.vaishnavi@gmail.com>"
+  ],
+  "description": "",
+  "main": "",
+  "license": "MIT",
+  "homepage": "",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "angular": "^1.6.6",
+    "angular-mocks": "^1.6.6"
+    
+  }
+}

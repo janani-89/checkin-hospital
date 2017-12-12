@@ -1,0 +1,32 @@
+{
+    "clinic":[
+        {
+            "name":"Burlingame Center",
+            "phone":"708-652-2300"
+        },
+        {
+            "name":"Burlingame Center",
+            "phone":"708-652-2300"
+        },
+        {
+            "name":"Daly City Center",
+            "phone":"748-652-2320"
+        },
+        {
+            "name":"Menlo Park Center",
+            "phone":"870-324-2200"
+        },
+        {
+            "name":"Redwood City  Center",
+            "phone":"708-652-2300"
+        },
+        {
+            "name":"Women's Health Center",
+            "phone":"320-366-7433"
+        },
+        {
+            "name":"San Carlos Center",
+            "phone":"220-321-0000 "
+        }
+    ]
+}

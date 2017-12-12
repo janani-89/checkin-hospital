@@ -1,0 +1,19 @@
+{
+    "location": [
+        {
+            "name": "Alameda County"
+        },
+        {
+            "name": "San Francisco County"    
+        },
+        {
+            "name": "San Mateo County"    
+        },
+        {
+            "name": "Santa Clara County"    
+        },
+        {
+            "name": "Santa Cruz County"    
+        }
+    ]
+}

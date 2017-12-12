@@ -1,0 +1,36 @@
+<div class="container-fluid" style="margin:20px 40px;">
+        
+            <div  >
+                <h5 style="font-weight: bold;text-align: center"> We have branches in the following locations </h5>
+                <p>We have hospitals and clinics all over the bay area which convenient locations located in the California Bay Area of San Francisco, San Jose, Santa Cruz, Los Gatos and the East Bay. Additional information such as address, directions, services and hours is available by clicking on the location name.</p>
+                <br/>
+                <img src ="https://thumb1.shutterstock.com/display_pic_with_logo/64260/150290684/stock-photo-healthcare-medical-and-technology-doctor-showing-something-patient-on-tablet-pc-in-hospital-150290684.jpg" style="float:right; width:300px;" />
+            </div>
+            <div style="margin:0 auto;">
+                <h5 style="font-weight: bold;color:black"
+                > Clinic in: </h5>
+                <ul ng-repeat ="location in locations">
+                    <li><a>{{location.name}}</a></li>
+                </ul>
+            </div>
+            <div>
+                <h5 style="font-weight: bold;color:black"> Alameda County</h5>
+                <ul>
+                    <li><a>Dublin center</a><br/>900-845-7412</li>
+                    <li><a>Fremont Center</a><br/>874-825-7412</li>
+                    <li><a>Pleasanton Center</a><br/>840-871-7412</li>
+                </ul>
+            </div>
+            <div>
+                    <h5 style="font-weight: bold;color:black"> San Francisco County</h5>
+                    <ul>
+                        <li><a>San Francisco center</a><br/>852-418-8512</li>
+                    </ul>
+            </div>
+            <div>
+                    <h5 style="font-weight: bold;color:black"> San Mateo County</h5>
+                    <ul ng-repeat="clinic in clinics">
+                        <li><a>{{clinic.name}} </a><br/> {{clinic.phone}}</li>
+                    </ul>
+            </div>
+</div>

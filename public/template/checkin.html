@@ -1,0 +1,26 @@
+<div class="container-fluid" style="margin:20px 40px;" ng-controller="checkinCtrl">
+    <h4 style="font-weight: bold; text-align:center;"> Check In Here</h4>
+    <br/>
+    <div class="col-sm-6" >
+      <form style = "width:80%;">
+        <div class="form-group">
+          First Name:<input type="text" class="form-control" id="fname" placeholder="First Name" ng-model="check.fname">
+        </div>
+        <div class="form-group">
+          Last Name:<input type="text" class="form-control" id="lname" placeholder="Last Name" ng-model="check.lname">
+        </div>
+      </form>
+    </div>
+    <div class="col-sm-6" >
+      <form style = "width:80%;">
+        <div class="form-group">
+          Email ID: <input type="email" class="form-control" id="email" placeholder="Email Address" ng-model="check.email">
+        </div>
+        <div class="form-group">
+          Appointment Time: <input type="time" class="form-control" id="tm"  ng-model="check.tm">
+        </div>
+      </form>
+    </div>
+    <div>
+        <button style = " text-align:center; margin:auto; display:block; color:white;font-weight: bold; width:170px;" type="submit" class="btn btn-success" ng-click="send(check)" >Submit </button>
+    </div>
