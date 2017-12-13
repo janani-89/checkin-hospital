@@ -13,15 +13,12 @@
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootswatch/3.3.7/cerulean/bootstrap.min.css" >
     <link rel="stylesheet" href="css/styles.css" >
     <script src="js/main.js"></script>
-    <script src="js/animation.js"></script>
-    <script src="js/app.run.js"></script> 
+    <script src="js/app.run.js"></script>
 
 </head>
-<body ng-controller="myCtrl" onLoad="slideShow()">
-    {{title}}
+<body ng-controller="myCtrl" >
     <div ng-include="'header.html'" > </div>
     <div ng-view></div>
-
-
+<script src="js/animation.js" ></script>
 </body>
 </html>
